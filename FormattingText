@@ -1,0 +1,41 @@
+using System;
+
+namespace FormattingText {
+  
+  class Program {
+    
+    static void Main(string[] args) {
+      
+      // Normal text
+      Console.WriteLine("Text");
+      
+      // New line (\n) - Specify where a new line starts
+      Console.WriteLine("New\nLine");
+      
+      // Tab (\t) - Add a tab
+      Console.WriteLine("\tTab");
+      
+      // Backspace (\b) - Place a backspace in the spot specified
+      Console.WriteLine("Ba\bckspace");
+      
+      // Beep (\a) - Send a beep through the system speaker
+      Console.WriteLine("\a");
+      
+      // Form feed (\f) - Start next page when printing
+      Console.WriteLine("First Page\fSecond Page");
+      
+      // Carriage return (/r) - Overwrite a line of text
+      Console.WriteLine("Hello World\rGoodbye World");
+      
+      // Vertical tab (\v) - Create a vertical tab
+      Console.WriteLine("\vVertical");
+      
+      // Single quote (\') - Create a single quote
+      Console.WriteLine("\'quote\'");
+      
+      // Double quote (\") - Create a double quote
+      Console.WriteLine("\"quotes\"");
+      
+    }
+  }
+}
