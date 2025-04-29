@@ -2,21 +2,25 @@ using System;
 
 namespace Pyramid
 {
-	public class Program
-	{
-    public static void Main(string[] args) {
-      int i, x, y, z;
-      i = 5;
-      
-        for (x=1;x<=i;x++) {
-          for (y=1;y<=i;y++) {
-            Console.Write(" ");
-          }
-          for (z=1;z<=x;z++) {
-            Console.Write("* ");
-          }
-          Console.WriteLine();
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            int i, x, y, z;
+            i = 5;
+
+            for (x = 1; x <= i; x++)
+            {
+                for (y = 1; y <= i-x; y++)
+                {
+                    Console.Write(" ");
+                }
+                for (z = 1; z <= x; z++)
+                {
+                    Console.Write("* ");
+                }
+                Console.WriteLine();
+            }
         }
     }
-	}
 }
