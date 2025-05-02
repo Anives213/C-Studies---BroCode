@@ -1,0 +1,11 @@
+Console.WriteLine("Sum Generator\n*************************");
+Console.WriteLine("First Digit: ");
+string FirstString = Console.ReadLine();
+float First;
+float.TryParse(FirstString, out First);
+string SecondString = Console.ReadLine();
+float Second;
+float.TryParse(SecondString, out Second);
+Console.WriteLine("Calculating........");
+float Answer = (First + Second);
+Console.WriteLine("The sum of the two digits is: " + Answer);
